@@ -17,9 +17,14 @@ CYAN = (0, 255, 255)
 MAGENTA = (255, 0, 255)
 YELLOW = (255, 255, 0)
 
-# fonctions
+# ===========================
+# ======== FONCTIONS ========
+# ===========================
 
-# classes
+# ===========================
+# ========= CLASSES =========
+# ===========================
+# metaclasse pour les enums
 class EnumMeta(type):
     def __iter__(cls):
         """ retourne un generateur pour faire `for item in Enum`"""
